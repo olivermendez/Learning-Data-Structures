@@ -1,2 +1,3 @@
+CC=g++
 output: punteros.cpp
-	g++ -o output punteros.cpp
+	$(CC) -o output punteros.cpp

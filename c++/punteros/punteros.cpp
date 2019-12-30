@@ -16,12 +16,12 @@ int main(){
 
     //Declaracion de un puntero
     int *p;
-    
+
     p = &x; 
     y = *p;
     *p = *p+3;
 
-    cout<<"El valor del puntero es: "<<p<<endl;
+    cout<<"El valor del puntero es: "<<*p<<endl;
     cout<<"El valor de X es: "<<x<<endl;
     cout<<"El valor de Y es: "<<y<<endl;
 
